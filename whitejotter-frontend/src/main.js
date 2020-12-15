@@ -9,7 +9,6 @@ var axios = require('axios')
 Vue.config.productionTip = false
 
 Vue.prototype.$axios = axios
-// Vue.prototype.$router = router 错误使用
 axios.defaults.baseURL="http://localhost:8443/api"
 
 new Vue({
